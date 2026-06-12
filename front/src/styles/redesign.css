@@ -1,0 +1,47 @@
+[data-design="redesign"] {
+    --color-context-500: #6128D9;
+    --color-context-600: #7043CD;
+    --color-context-700: #4B1EAD;
+    --color-context-background: #1A1228;
+
+    --color-background-000: #121212;
+    --color-background-100: #1A1A1A;
+    --color-background-200: #212121;
+    --color-background-300: #161616;
+
+    --color-foreground-000: #FFFFFF;
+    --color-foreground-200: #B3B3B3;
+    --color-foreground-300: #575757;
+    --color-foreground-500: #767677;
+    --color-foreground-600: #9CA3AD;
+    --color-foreground-700: #9CA3AD;
+    --color-foreground-900: #E1E5EB;
+
+    --color-red-500: #FF2727;
+    --color-red-background: rgba(255,39,39,0.09);
+
+    --color-yellow-500: #FF9A27;
+    --color-yellow-background: rgba(255,154,39,0.09);
+
+    --color-green-500: #15AD70;
+    --color-green-background: rgba(21,173,112,0.09);
+
+    --color-orange: #FF9A27;
+
+    /* Figma surface tokens */
+    --surface-hover: #3D3D3D;
+    --accent-hover: #7043CD;
+
+    /* New tokens */
+    --round-main: 12px;
+    --round-full: 9999px;
+    --white-alpha-9: rgba(255,255,255,0.09);
+    --white-alpha-14: rgba(255,255,255,0.14);
+    --red-alpha-9: rgba(255,39,39,0.09);
+    --red-alpha-14: rgba(255,39,39,0.14);
+}
+
+@keyframes carousel-fill {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+}
